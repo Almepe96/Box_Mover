@@ -1,24 +1,9 @@
-from graphics import *
-from maze import *
-SIZE = 70
+import tkinter as tk
+from Frames import BoxMover
 
 def main():
-    win = Window(800, 600)
-
-    win.wait_for_close()
-
-
-
-
-
-
-
-
-
-
-
-
-
+    app = BoxMover()
+    app.mainloop()
 
 
 main()
